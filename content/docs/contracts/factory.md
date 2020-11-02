@@ -16,8 +16,8 @@ The JSON parameter of instantiation is as like below:
 
 ```json
 {
-  "pair_code_id": "x",
-  "token_code_id": "y",
+  "pair_code_id": "1",
+  "token_code_id": "2",
   "init_hook": {
     "msg": "base64_encoded_json_data",
     "contract_addr": "terra..."
@@ -98,8 +98,8 @@ This encoded string goes to `init_hook.msg`.
 
 ```json
 {
-  "pair_code_id": "x",
-  "token_code_id": "y",
+  "pair_code_id": "1",
+  "token_code_id": "2",
   "init_hook": {
     "msg": "ew0KICAgICJhc3NldF9pbmZvcyI6IFsNCiAgICAgICAgew0KICAgICAgICAgICAgInRva2VuIjogew0KICAgICAgICAgICAgICAgICJjb250cmFjdF9hZGRyIjogInRlcnJhdG9rZW5hZGRyMDAwMXh4eHh4eHh4Ig0KICAgICAgICAgICAgfQ0KICAgICAgICB9LA0KICAgICAgICB7DQogICAgICAgICAgICAibmF0aXZlX3Rva2VuIjogew0KICAgICAgICAgICAgICAgICJkZW5vbSI6ICJ1bHVuYSINCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIF0sDQogICAgImNvbW1pc3Npb25fY29sbGVjdG9yIjogInRlcnJhY29tbWlzc2lvbmNvbGxlY3RvcjAwMDF4eHh4eHh4eCIsDQogICAgImxwX2NvbW1pc3Npb24iOiAiMC4zIiwNCiAgICAib3duZXIiOiAidGVycmF0b2tlbmNvbnRyYWN0b3duZXIwMDAxeHh4eHh4eHh4eCIsDQogICAgIm93bmVyX2NvbW1pc3Npb24iOiAiMC4yIiwNCiAgICAidG9rZW5fY29kZV9pZCI6IDENCn0=",
     "contract_addr": "terra..."
