@@ -8,7 +8,7 @@ headless: true
 - [Trading Fees]({{< relref "/docs/introduction/trading_fees" >}})
 <br />
 - **Contracts**
-- [Pair]({{< relref "/docs/contracts/pair" >}})
+- [Token]({{< relref "/docs/contracts/token" >}})
 - [Factory]({{< relref "/docs/contracts/factory" >}})
 <br />
 <br />
