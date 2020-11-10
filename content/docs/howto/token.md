@@ -3,7 +3,7 @@ weight: 1
 bookFlatSection: true
 ---
 
-# Mint your CW20 token
+# Mint Your CW20 Token
 
 ## Introduction
 
