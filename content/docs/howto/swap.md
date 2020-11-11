@@ -89,9 +89,7 @@ It needs different `handle-msg`. It works as a same way logically, but it uses d
         "contract": "<HumanAddr>",
         "amount": "10",
         "msg": Binary({
-            "swap": {
-                "to": Option<HumanAddr>
-            }
+            "swap": {}
         })
     }
 }
@@ -107,4 +105,25 @@ In CLI, `contract-address` **should be the token address!**
 
 And, in message:
 - `send.contract`: **pair address should be on it!!**
-- `send.amount`: 
+- `send.amount`: amount of the origin token to swap from
+
+`send.msg.swap` can contain a couple of optional values but you don't have to put them in case of basic execution.
+
+Then, you should encode `{"swap":{}}` into base64 encoding. It would be `eyJzd2FwIjp7fX0=`.
+
+Then, JSON value goes to:
+
+```json
+{
+    "send": {
+        "contract": "<HumanAddr>",
+        "amount": "10",
+        "msg": "eyJzd2FwIjp7fX0="
+    }
+}
+```
+
+After then, you may proceed as like the above.
+
+From now on, you can swap your pairs in both ways!
+
