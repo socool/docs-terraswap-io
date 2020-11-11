@@ -27,7 +27,7 @@ enableGitInfo = true
 # [[menu.before]]
 [[menu.after]]
   name = "Github"
-  url = "https://github.com/DELIGHT-LABS/terraswap"
+  url = "https://github.com/terraswap/terraswap"
   weight = 10
 
 [[menu.after]]
