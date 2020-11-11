@@ -12,10 +12,6 @@ Each liquidity pool for mAssets/MIR has 2 commission rates (adjustable by govern
 
 ## LP Commission
 
-The **LP Commission** is the portion of each trade that goes back into to the pool as commissions for liquidity providers. It can be withdrawn by burning LP tokens and reclaiming a portion of the pool. By default, this is set to 0.25%.
+The **LP Commission** is the portion of each trade that goes back into to the pool as commissions for liquidity providers. It can be withdrawn by burning LP tokens and reclaiming a portion of the pool.
 
-The LP Commission serves mainly as an incentive to provide liquidity from TerraSwap's LP Token mechanism.
-
-## Owner Commission
-
-The **Owner Commission** is the portion of each trade that gets sent to the TerraSwap pair's contract owner (it does not stay in the pool). By default, this is set to 0.05%.
+This is set to 0.3%.

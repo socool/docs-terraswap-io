@@ -3,7 +3,7 @@ weight: 1
 bookFlatSection: true
 ---
 
-# Frequently used messages
+# Frequently Used Messages
 
 ## Transaction
 
